@@ -1,0 +1,13 @@
+uid: SR-0051
+type: system_requirement
+status: approved
+title: Use inline assembly only where C cannot do the job
+text: >-
+  Use inline assembly only where it is genuinely necessary for the CPU or platform, wrap
+  common assembly in small helper functions, and move large non-trivial assembly into .S
+  files with C prototypes.
+links:
+- target: UR-0019
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Inline Assembly"

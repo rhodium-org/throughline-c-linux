@@ -1,0 +1,12 @@
+uid: SR-0034
+type: system_requirement
+status: approved
+title: Advertise a dangerous Kconfig option in its prompt
+text: >-
+  Prominently advertise a dangerous feature in its prompt string, for example by including
+  the word DANGEROUS.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Kconfig Configuration Files"

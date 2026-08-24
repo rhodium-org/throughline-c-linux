@@ -1,0 +1,12 @@
+uid: SR-0049
+type: system_requirement
+status: approved
+title: Reuse existing kernel helper macros
+text: >-
+  Use the existing kernel macros from include/linux, such as ARRAY_SIZE, sizeof_field and
+  the type-checked min and max, rather than re-inventing them.
+links:
+- target: UR-0017
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Do Not Re-invent Kernel Macros"

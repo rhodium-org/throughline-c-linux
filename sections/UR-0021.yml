@@ -1,0 +1,11 @@
+uid: UR-0021
+type: user_requirement
+status: approved
+title: Do Not Crash the Kernel
+text: >-
+  Rules governing panic, BUG, WARN and compile-time assertions.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Linux Kernel Coding Style: Do Not Crash the Kernel"

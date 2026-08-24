@@ -1,0 +1,13 @@
+uid: SR-0054
+type: system_requirement
+status: approved
+title: Use IS_ENABLED and __maybe_unused over #ifdef
+text: >-
+  Use the IS_ENABLED macro to test a Kconfig symbol in an ordinary C conditional, mark a
+  possibly-unused definition __maybe_unused rather than wrapping it, and annotate a
+  non-trivial #endif with the condition it closes.
+links:
+- target: UR-0020
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Conditional Compilation"

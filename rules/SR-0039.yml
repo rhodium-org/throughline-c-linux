@@ -1,0 +1,12 @@
+uid: SR-0039
+type: system_requirement
+status: approved
+title: Avoid macros with control flow or magic names
+text: >-
+  Avoid a macro that affects control flow, depends on a magic local variable name, uses an
+  argument as an l-value, or collides with a caller's local names.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Macros, Enums and RTL"

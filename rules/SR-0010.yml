@@ -1,0 +1,12 @@
+uid: SR-0010
+type: system_requirement
+status: approved
+title: Put a function's opening brace on its own next line
+text: >-
+  Place a function's opening brace at the start of the line after the parameter list,
+  unlike the K&R placement used for control-flow blocks.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Placing Braces and Spaces — Braces"

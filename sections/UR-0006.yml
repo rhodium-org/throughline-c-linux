@@ -1,0 +1,12 @@
+uid: UR-0006
+type: user_requirement
+status: approved
+title: Functions
+text: >-
+  Rules governing function length, single responsibility, blank-line separation, export
+  placement and prototype ordering.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Linux Kernel Coding Style: Functions —"

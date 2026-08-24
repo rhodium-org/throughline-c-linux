@@ -1,0 +1,12 @@
+uid: SR-0004
+type: system_requirement
+status: approved
+title: Put each statement on its own line
+text: >-
+  Never put multiple statements on a single line, do not use a comma to avoid braces, and
+  avoid multiple assignments on one line.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Indentation"

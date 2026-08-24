@@ -1,0 +1,13 @@
+uid: SR-0016
+type: system_requirement
+status: approved
+title: Space binary and ternary operators, not unary ones
+text: >-
+  Put one space on each side of binary and ternary operators, and no space between a unary
+  operator and its operand, around ++/-- next to their operand, or around the . and ->
+  member operators.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Placing Braces and Spaces — Spaces"

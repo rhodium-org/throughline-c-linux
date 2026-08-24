@@ -1,0 +1,13 @@
+uid: SR-0013
+type: system_requirement
+status: approved
+title: Put a space after a keyword but not after a function name
+text: >-
+  Put a space after control keywords (if, switch, case, for, do, while) but no space
+  between a function name and its opening parenthesis, and none after sizeof, typeof,
+  alignof or __attribute__.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Placing Braces and Spaces — Spaces"

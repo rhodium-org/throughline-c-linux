@@ -1,0 +1,12 @@
+uid: SR-0009
+type: system_requirement
+status: approved
+title: Put the opening brace last for control blocks
+text: >-
+  For non-function statement blocks such as if, switch, for, while and do, put the opening
+  brace last on the line and the closing brace first on its own line.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Placing Braces and Spaces — Braces"

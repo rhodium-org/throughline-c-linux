@@ -1,0 +1,11 @@
+uid: UR-0017
+type: user_requirement
+status: approved
+title: Do Not Re-invent Kernel Macros
+text: >-
+  Rules governing reuse of existing kernel helper macros.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Linux Kernel Coding Style: Do Not Re-invent Kernel Macros"

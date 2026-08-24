@@ -1,0 +1,11 @@
+uid: UR-0016
+type: user_requirement
+status: approved
+title: Using bool
+text: >-
+  Rules governing where bool improves readability and where it should be avoided.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Linux Kernel Coding Style: Using bool"

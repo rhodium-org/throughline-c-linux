@@ -1,0 +1,13 @@
+uid: SR-0043
+type: system_requirement
+status: approved
+title: Do not cast the return of a void-pointer allocator
+text: >-
+  Do not cast the void-pointer return of an allocator, since C guarantees the implicit
+  conversion, and do not print an extra out-of-memory message because the allocator
+  already dumps the stack.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Allocating Memory"

@@ -1,0 +1,12 @@
+uid: SR-0030
+type: system_requirement
+status: approved
+title: Say what code does, never how it works
+text: >-
+  Write comments that say what the code does and possibly why, not how it works, and avoid
+  commenting inside a function body; refactor a confusing function instead.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Commenting"

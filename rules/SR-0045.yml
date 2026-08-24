@@ -1,0 +1,12 @@
+uid: SR-0045
+type: system_requirement
+status: approved
+title: Return an error code from an action function
+text: >-
+  Make an action or command function return an integer error code, with a negative -Exxx
+  value for failure and 0 for success.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Function Return Values and Names"

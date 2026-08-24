@@ -1,0 +1,12 @@
+uid: SR-0017
+type: system_requirement
+status: approved
+title: Keep local variable names short
+text: >-
+  Give local variables short, to-the-point names such as i for a loop counter or tmp for a
+  temporary value rather than verbose descriptions.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Naming"

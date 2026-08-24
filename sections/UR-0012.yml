@@ -1,0 +1,11 @@
+uid: UR-0012
+type: user_requirement
+status: approved
+title: Printing Kernel Messages
+text: >-
+  Rules governing spelling, conciseness and the dev_/pr_ message helpers.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Linux Kernel Coding Style: Printing Kernel Messages"

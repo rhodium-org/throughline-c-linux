@@ -1,0 +1,12 @@
+uid: SR-0038
+type: system_requirement
+status: approved
+title: Parenthesise macro arguments and expressions
+text: >-
+  Parenthesise every use of a macro argument and the whole macro expression to respect
+  operator precedence.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Macros, Enums and RTL"

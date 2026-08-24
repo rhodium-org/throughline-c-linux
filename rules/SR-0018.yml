@@ -1,0 +1,12 @@
+uid: SR-0018
+type: system_requirement
+status: approved
+title: Give globals and functions descriptive names
+text: >-
+  Give global variables and functions clear descriptive names, such as
+  count_active_users(), not cryptic abbreviations.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Naming"

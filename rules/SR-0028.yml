@@ -1,0 +1,12 @@
+uid: SR-0028
+type: system_requirement
+status: approved
+title: Use goto for shared cleanup on multiple exits
+text: >-
+  Use a goto to a common cleanup label when a function has several exit points that share
+  the same unwinding work; return directly when no cleanup is needed.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Centralized Exiting of Functions"

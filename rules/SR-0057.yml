@@ -1,0 +1,12 @@
+uid: SR-0057
+type: system_requirement
+status: approved
+title: Warn only for should-never-happen situations
+text: >-
+  Reserve WARN*() for unexpected, should-never-happen conditions rather than routine or
+  easily user-triggered ones, and use BUILD_BUG_ON() for compile-time assertions.
+links:
+- target: UR-0021
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Do Not Crash the Kernel"

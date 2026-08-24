@@ -1,0 +1,12 @@
+uid: SR-0050
+type: system_requirement
+status: approved
+title: Keep editor modelines out of source files
+text: >-
+  Do not embed editor configuration such as emacs or vim modelines in a source file, so
+  that each developer's own editor settings apply.
+links:
+- target: UR-0018
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Editor Modelines and Other Cruft"

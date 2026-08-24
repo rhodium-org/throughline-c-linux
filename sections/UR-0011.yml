@@ -1,0 +1,12 @@
+uid: UR-0011
+type: user_requirement
+status: approved
+title: Macros, Enums and RTL
+text: >-
+  Rules governing macro and enum naming, do-while wrapping, parenthesisation and the
+  pitfalls to avoid.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Linux Kernel Coding Style: Macros, Enums and RTL"

@@ -1,0 +1,12 @@
+uid: SR-0023
+type: system_requirement
+status: approved
+title: Keep a function short and single-purpose
+text: >-
+  Make each function short and do one thing well, ideally fitting within one or two
+  screenfuls of an 80x24 terminal, with fewer local variables than about five to ten.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Functions — Length"

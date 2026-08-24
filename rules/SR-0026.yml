@@ -1,0 +1,12 @@
+uid: SR-0026
+type: system_requirement
+status: approved
+title: Name every parameter in a prototype without extern
+text: >-
+  Include parameter names with their types in a function prototype, and do not use the
+  extern keyword on a function declaration.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Functions — Prototypes"

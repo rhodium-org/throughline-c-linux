@@ -1,0 +1,12 @@
+uid: SR-0007
+type: system_requirement
+status: approved
+title: Indent a continuation well to the right of its parent
+text: >-
+  When breaking a long line, place the continuation substantially to the right of its
+  parent line, commonly aligned to the opening parenthesis of the call.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Breaking Long Lines and Strings"

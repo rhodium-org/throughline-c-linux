@@ -1,0 +1,13 @@
+uid: SR-0053
+type: system_requirement
+status: approved
+title: Avoid preprocessor conditionals in .c files
+text: >-
+  Avoid #if and #ifdef inside a .c file; put the conditional in a header that provides a
+  real function or a no-op stub, and call it unconditionally so the compiler still checks
+  the code.
+links:
+- target: UR-0020
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Conditional Compilation"

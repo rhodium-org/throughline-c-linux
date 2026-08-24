@@ -1,0 +1,12 @@
+uid: SR-0040
+type: system_requirement
+status: approved
+title: Keep kernel messages correctly spelt and concise
+text: >-
+  Spell kernel messages correctly and keep them concise, clear and unambiguous; a message
+  need not end with a period, and avoid printing a bare number in parentheses.
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Printing Kernel Messages"

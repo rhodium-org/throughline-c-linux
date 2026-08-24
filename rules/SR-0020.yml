@@ -1,0 +1,13 @@
+uid: SR-0020
+type: system_requirement
+status: approved
+title: Avoid master/slave and blacklist/whitelist terminology
+text: >-
+  Avoid introducing master/slave or blacklist/whitelist terminology in new code; use
+  alternatives such as primary/secondary or denylist/allowlist, except where a userspace
+  ABI or hardware specification requires the original term.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Naming"

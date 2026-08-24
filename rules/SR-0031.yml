@@ -1,0 +1,13 @@
+uid: SR-0031
+type: system_requirement
+status: approved
+title: Comment a kernel API at its head in kernel-doc
+text: >-
+  Place the main comment at the head of a function describing its purpose, and use
+  kernel-doc format for a kernel API rather than boilerplate that merely restates the
+  signature.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Commenting"

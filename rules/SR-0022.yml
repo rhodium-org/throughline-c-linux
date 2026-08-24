@@ -1,0 +1,13 @@
+uid: SR-0022
+type: system_requirement
+status: approved
+title: Use a typedef only for a justified reason
+text: >-
+  Introduce a typedef only for a genuinely opaque object, a clearly integer type such as
+  u8/u16/u32, a sparse-checked type, a userspace-safe shared type, or an exact
+  C99-equivalent type in exceptional circumstances.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Typedefs"

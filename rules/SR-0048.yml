@@ -1,0 +1,13 @@
+uid: SR-0048
+type: system_requirement
+status: approved
+title: Avoid bool where layout or size matters
+text: >-
+  Avoid bool where cache-line layout or size matters; consolidate several boolean
+  structure fields into a bitfield or a fixed-width type, and several boolean arguments
+  into a single flags argument.
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Using bool"

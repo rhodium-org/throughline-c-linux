@@ -1,0 +1,12 @@
+uid: SR-0011
+type: system_requirement
+status: approved
+title: Keep a continuation keyword on the closing brace line
+text: >-
+  Put a continuation keyword, such as the while of a do-while or an else, on the same line
+  as the preceding closing brace.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Placing Braces and Spaces — Braces"

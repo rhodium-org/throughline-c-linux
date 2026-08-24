@@ -1,0 +1,11 @@
+uid: SR-0024
+type: system_requirement
+status: approved
+title: Separate functions with one blank line
+text: >-
+  Separate consecutive function definitions with a single blank line.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Functions — Length"

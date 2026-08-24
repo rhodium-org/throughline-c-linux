@@ -1,0 +1,12 @@
+uid: SR-0008
+type: system_requirement
+status: approved
+title: Never break a user-visible string across lines
+text: >-
+  Never split a user-visible string, such as a printk message, across source lines, so
+  that it remains greppable even when it exceeds 80 columns.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Breaking Long Lines and Strings"

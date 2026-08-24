@@ -1,0 +1,13 @@
+uid: SR-0012
+type: system_requirement
+status: approved
+title: Omit braces around a single statement
+text: >-
+  Do not use braces where a single statement suffices, but keep braces on both arms of a
+  conditional when either arm needs them, and on a loop body of more than one simple
+  statement.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Placing Braces and Spaces — Braces"

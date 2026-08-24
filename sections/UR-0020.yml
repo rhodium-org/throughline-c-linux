@@ -1,0 +1,11 @@
+uid: UR-0020
+type: user_requirement
+status: approved
+title: Conditional Compilation
+text: >-
+  Rules governing avoiding preprocessor conditionals in .c files.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Linux Kernel Coding Style: Conditional Compilation"

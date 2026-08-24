@@ -1,0 +1,12 @@
+uid: SR-0019
+type: system_requirement
+status: approved
+title: Do not encode the type into a name
+text: >-
+  Do not encode a variable's type into its name; Hungarian notation is brain damaged and
+  unhelpful in kernel C.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Naming"

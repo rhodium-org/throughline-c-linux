@@ -1,0 +1,12 @@
+uid: SR-0015
+type: system_requirement
+status: approved
+title: Attach the pointer asterisk to the name
+text: >-
+  Write the pointer asterisk adjacent to the data or function name rather than to the
+  type, as in char *linux_banner.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Placing Braces and Spaces — Spaces"

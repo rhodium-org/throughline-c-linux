@@ -1,0 +1,11 @@
+uid: UR-0007
+type: user_requirement
+status: approved
+title: Centralized Exiting of Functions
+text: >-
+  Rules governing the use of goto for shared cleanup and descriptive error labels.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Linux Kernel Coding Style: Centralized Exiting of Functions"

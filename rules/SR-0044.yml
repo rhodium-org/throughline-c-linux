@@ -1,0 +1,13 @@
+uid: SR-0044
+type: system_requirement
+status: approved
+title: Do not inline as a magic speed-up
+text: >-
+  Do not sprinkle inline as a supposed optimisation; as a rule of thumb do not inline a
+  function longer than three lines, and let gcc inline a static single-use function on its
+  own.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: The Inline Disease"

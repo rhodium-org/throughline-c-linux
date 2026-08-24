@@ -1,0 +1,12 @@
+uid: SR-0052
+type: system_requirement
+status: approved
+title: Format and mark inline assembly correctly
+text: >-
+  Mark an asm statement volatile when its side effects are not obvious, and put each
+  instruction of a multi-instruction statement on its own quoted line ending in \n\t.
+links:
+- target: UR-0019
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Inline Assembly"

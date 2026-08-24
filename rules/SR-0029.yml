@@ -1,0 +1,12 @@
+uid: SR-0029
+type: system_requirement
+status: approved
+title: Name error labels for the cleanup they perform
+text: >-
+  Give each cleanup label a descriptive name such as out_free_buffer that says what it
+  unwinds, rather than a numbered name like err1 that must be renumbered.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Centralized Exiting of Functions"

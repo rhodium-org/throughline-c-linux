@@ -1,0 +1,12 @@
+uid: UR-0004
+type: user_requirement
+status: approved
+title: Naming
+text: >-
+  Rules governing the Spartan naming of local and global identifiers and inclusive
+  terminology.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Linux Kernel Coding Style: Naming"

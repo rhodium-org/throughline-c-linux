@@ -1,0 +1,12 @@
+uid: SR-0056
+type: system_requirement
+status: approved
+title: Prefer WARN_ON_ONCE to BUG
+text: >-
+  Do not add new BUG(), BUG_ON() or VM_BUG_ON() calls; prefer a WARN_ON_ONCE() with
+  recovery code, since laziness about error handling never justifies a BUG().
+links:
+- target: UR-0021
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Do Not Crash the Kernel"

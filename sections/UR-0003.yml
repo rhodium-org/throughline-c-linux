@@ -1,0 +1,12 @@
+uid: UR-0003
+type: user_requirement
+status: approved
+title: Placing Braces and Spaces
+text: >-
+  Rules governing K&R brace placement, when braces are and are not used, and the use of
+  spaces around keywords and operators.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Linux Kernel Coding Style: Placing Braces and Spaces"

@@ -1,0 +1,12 @@
+uid: SR-0032
+type: system_requirement
+status: approved
+title: Format a multi-line comment with a left column of asterisks
+text: >-
+  Format a multi-line comment with an aligned left column of asterisks and near-empty
+  opening and closing lines.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Commenting"

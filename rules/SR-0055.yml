@@ -1,0 +1,12 @@
+uid: SR-0055
+type: system_requirement
+status: approved
+title: Reserve panic for unrecoverable boot failure
+text: >-
+  Use panic() only with great care, essentially only during boot when there is no way to
+  continue, such as running out of memory.
+links:
+- target: UR-0021
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Do Not Crash the Kernel"

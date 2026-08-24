@@ -1,0 +1,12 @@
+uid: SR-0006
+type: system_requirement
+status: approved
+title: Prefer a line length of 80 columns
+text: >-
+  Take 80 columns as the preferred line-length limit, and break a longer statement into
+  sensible chunks unless doing so significantly reduces readability.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Breaking Long Lines and Strings"

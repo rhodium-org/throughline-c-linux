@@ -1,0 +1,12 @@
+uid: SR-0001
+type: system_requirement
+status: approved
+title: Make one indentation level one 8-character tab
+text: >-
+  Use tabs that are 8 characters wide for indentation, and make each level of indentation
+  exactly one such tab, so that deep nesting is visually obvious.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Indentation"

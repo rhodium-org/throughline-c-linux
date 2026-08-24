@@ -1,0 +1,12 @@
+uid: SR-0025
+type: system_requirement
+status: approved
+title: Place the EXPORT macro after the closing brace
+text: >-
+  If a function is exported, put its EXPORT_SYMBOL macro immediately after its closing
+  brace.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Functions — Length"

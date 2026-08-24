@@ -1,0 +1,13 @@
+uid: SR-0041
+type: system_requirement
+status: approved
+title: Use the dev_ and pr_ message helpers
+text: >-
+  Use the dev_err/dev_warn/dev_info helpers for a device, and the pr_err/pr_warn/pr_info
+  helpers otherwise, keeping a working driver quiet and preferring dev_dbg or pr_debug for
+  debug output.
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: "Linux Kernel Coding Style: Printing Kernel Messages"

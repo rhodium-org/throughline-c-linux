@@ -1,0 +1,13 @@
+uid: INT-0001
+type: intent
+status: approved
+title: Kernel C is written in one consistent, readable, reviewable style
+text: >-
+  The Linux kernel coding style exists so that C across the whole kernel tree reads as
+  though written by one author: a single hard-tab-based layout, K&R brace placement, an
+  80-column bias, Spartan naming and a shared set of idioms for functions, memory, locking
+  and messages, so that any kernel developer can read, review and change code they did not
+  write.
+normative: false
+attrs:
+  source_ref: "Linux Kernel Coding Style"
