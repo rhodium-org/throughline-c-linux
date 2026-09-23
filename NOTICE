@@ -8,7 +8,7 @@ full terms.
 
 This repository is a throughline *source*: a requirements graph, not a program. It
 re-expresses the Linux kernel coding style as a grounded IDD graph so consuming
-projects can compose it with throughline-compose.
+projects can compose it with throughline.
 
 The Linux kernel coding style is part of the Linux kernel documentation, published by
 the Linux kernel developers at kernel.org under the GPL-2.0 licence. The rule text
