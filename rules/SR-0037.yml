@@ -1,12 +1,12 @@
 uid: SR-0037
 type: system_requirement
-status: approved
+status: proposed
 title: Wrap a multi-statement macro in do { } while (0)
-text: >-
-  Enclose a multi-statement macro in a do { ... } while (0) block so it behaves like a
-  single statement, and prefer an inline function to a function-like macro.
+text: Enclose a multi-statement macro in a do { ... } while (0) block so it behaves
+  like a single statement, and prefer an inline function to a function-like macro.
+normative: true
 links:
 - target: UR-0011
   type: implements
 attrs:
-  source_ref: "Linux Kernel Coding Style: Macros, Enums and RTL"
+  source_ref: 'Linux Kernel Coding Style: Macros, Enums and RTL'

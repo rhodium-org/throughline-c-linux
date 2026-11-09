@@ -1,13 +1,13 @@
 uid: SR-0027
 type: system_requirement
-status: approved
+status: proposed
 title: Order the elements of a declaration consistently
-text: >-
-  Order the elements of a function declaration consistently: storage class, storage-class
-  attributes, return type, return-type attributes, name, parameters, then parameter and
-  behaviour attributes.
+text: 'Order the elements of a function declaration consistently: storage class,
+  storage-class attributes, return type, return-type attributes, name, parameters,
+  then parameter and behaviour attributes.'
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "Linux Kernel Coding Style: Functions — Prototypes"
+  source_ref: 'Linux Kernel Coding Style: Functions — Prototypes'

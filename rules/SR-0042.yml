@@ -1,12 +1,12 @@
 uid: SR-0042
 type: system_requirement
-status: approved
+status: proposed
 title: Allocate against the pointer, not the spelt-out type
-text: >-
-  Allocate a structure with the dereferenced pointer form, such as p = kmalloc(sizeof(*p),
+text: Allocate a structure with the dereferenced pointer form, such as p = kmalloc(sizeof(*p),
   ...), so the size stays correct if the pointer type changes.
+normative: true
 links:
 - target: UR-0013
   type: implements
 attrs:
-  source_ref: "Linux Kernel Coding Style: Allocating Memory"
+  source_ref: 'Linux Kernel Coding Style: Allocating Memory'

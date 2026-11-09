@@ -1,11 +1,11 @@
 uid: UR-0013
 type: user_requirement
-status: approved
+status: proposed
 title: Allocating Memory
-text: >-
-  Rules governing the preferred allocation idioms and not casting or double-reporting.
+text: Rules governing the preferred allocation idioms and not casting or double-reporting.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Linux Kernel Coding Style: Allocating Memory"
+  source_ref: 'Linux Kernel Coding Style: Allocating Memory'

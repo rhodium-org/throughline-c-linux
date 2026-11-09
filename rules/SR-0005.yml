@@ -1,12 +1,12 @@
 uid: SR-0005
 type: system_requirement
-status: approved
+status: proposed
 title: Indent with tabs only and leave no trailing whitespace
-text: >-
-  Use tabs for indentation, not spaces, outside comments and documentation, and leave no
-  trailing whitespace at the end of a line.
+text: Use tabs for indentation, not spaces, outside comments and documentation, and
+  leave no trailing whitespace at the end of a line.
+normative: true
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: "Linux Kernel Coding Style: Indentation"
+  source_ref: 'Linux Kernel Coding Style: Indentation'

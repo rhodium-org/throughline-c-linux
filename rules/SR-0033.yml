@@ -1,12 +1,12 @@
 uid: SR-0033
 type: system_requirement
-status: approved
+status: proposed
 title: Indent a Kconfig entry and its help text as prescribed
-text: >-
-  Indent the lines under a config definition with one tab, and indent help text with one
-  tab plus two spaces.
+text: Indent the lines under a config definition with one tab, and indent help text
+  with one tab plus two spaces.
+normative: true
 links:
 - target: UR-0009
   type: implements
 attrs:
-  source_ref: "Linux Kernel Coding Style: Kconfig Configuration Files"
+  source_ref: 'Linux Kernel Coding Style: Kconfig Configuration Files'

@@ -1,11 +1,11 @@
 uid: UR-0015
 type: user_requirement
-status: approved
+status: proposed
 title: Function Return Values and Names
-text: >-
-  Rules governing the error-code versus boolean return-value conventions.
+text: Rules governing the error-code versus boolean return-value conventions.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Linux Kernel Coding Style: Function Return Values and Names"
+  source_ref: 'Linux Kernel Coding Style: Function Return Values and Names'

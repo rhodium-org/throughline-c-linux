@@ -1,11 +1,11 @@
 uid: SR-0014
 type: system_requirement
-status: approved
+status: proposed
 title: Do not pad the inside of parentheses
-text: >-
-  Do not add spaces just inside a parenthesised expression.
+text: Do not add spaces just inside a parenthesised expression.
+normative: true
 links:
 - target: UR-0003
   type: implements
 attrs:
-  source_ref: "Linux Kernel Coding Style: Placing Braces and Spaces — Spaces"
+  source_ref: 'Linux Kernel Coding Style: Placing Braces and Spaces — Spaces'

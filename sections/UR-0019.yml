@@ -1,11 +1,11 @@
 uid: UR-0019
 type: user_requirement
-status: approved
+status: proposed
 title: Inline Assembly
-text: >-
-  Rules governing when and how to write inline assembly.
+text: Rules governing when and how to write inline assembly.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Linux Kernel Coding Style: Inline Assembly"
+  source_ref: 'Linux Kernel Coding Style: Inline Assembly'

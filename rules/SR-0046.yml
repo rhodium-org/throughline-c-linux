@@ -1,13 +1,13 @@
 uid: SR-0046
 type: system_requirement
-status: approved
+status: proposed
 title: Return a boolean from a predicate function
-text: >-
-  Make a predicate function return a boolean success value, with zero for failure and
-  non-zero for success, and signal a computation's failure via an out-of-range result,
-  NULL or ERR_PTR.
+text: Make a predicate function return a boolean success value, with zero for failure
+  and non-zero for success, and signal a computation's failure via an out-of-range
+  result, NULL or ERR_PTR.
+normative: true
 links:
 - target: UR-0015
   type: implements
 attrs:
-  source_ref: "Linux Kernel Coding Style: Function Return Values and Names"
+  source_ref: 'Linux Kernel Coding Style: Function Return Values and Names'

@@ -1,12 +1,12 @@
 uid: UR-0001
 type: user_requirement
-status: approved
+status: proposed
 title: Indentation
-text: >-
-  Rules governing the hard-tab-based indentation, its width and depth, and switch-case
+text: Rules governing the hard-tab-based indentation, its width and depth, and switch-case
   alignment.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Linux Kernel Coding Style: Indentation"
+  source_ref: 'Linux Kernel Coding Style: Indentation'

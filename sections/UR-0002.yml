@@ -1,12 +1,12 @@
 uid: UR-0002
 type: user_requirement
-status: approved
+status: proposed
 title: Breaking Long Lines and Strings
-text: >-
-  Rules governing the 80-column bias, how to break long statements and why strings are
-  never broken.
+text: Rules governing the 80-column bias, how to break long statements and why strings
+  are never broken.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Linux Kernel Coding Style: Breaking Long Lines and Strings"
+  source_ref: 'Linux Kernel Coding Style: Breaking Long Lines and Strings'

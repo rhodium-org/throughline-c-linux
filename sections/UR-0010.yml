@@ -1,11 +1,11 @@
 uid: UR-0010
 type: user_requirement
-status: approved
+status: proposed
 title: Data Structures
-text: >-
-  Rules governing reference counting of shared data structures.
+text: Rules governing reference counting of shared data structures.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Linux Kernel Coding Style: Data Structures"
+  source_ref: 'Linux Kernel Coding Style: Data Structures'

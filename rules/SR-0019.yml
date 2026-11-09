@@ -1,12 +1,12 @@
 uid: SR-0019
 type: system_requirement
-status: approved
+status: proposed
 title: Do not encode the type into a name
-text: >-
-  Do not encode a variable's type into its name; Hungarian notation is brain damaged and
-  unhelpful in kernel C.
+text: Do not encode a variable's type into its name; Hungarian notation is brain
+  damaged and unhelpful in kernel C.
+normative: true
 links:
 - target: UR-0004
   type: implements
 attrs:
-  source_ref: "Linux Kernel Coding Style: Naming"
+  source_ref: 'Linux Kernel Coding Style: Naming'

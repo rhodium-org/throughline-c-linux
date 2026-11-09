@@ -1,12 +1,12 @@
 uid: SR-0002
 type: system_requirement
-status: approved
+status: proposed
 title: Keep nesting within about three levels
-text: >-
-  Keep code within roughly three levels of indentation; deeper nesting is a sign the
-  function should be restructured or broken up.
+text: Keep code within roughly three levels of indentation; deeper nesting is a sign
+  the function should be restructured or broken up.
+normative: true
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: "Linux Kernel Coding Style: Indentation"
+  source_ref: 'Linux Kernel Coding Style: Indentation'

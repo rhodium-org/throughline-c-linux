@@ -1,12 +1,12 @@
 uid: SR-0047
 type: system_requirement
-status: approved
+status: proposed
 title: Prefer bool with true and false for boolean values
-text: >-
-  Use bool with the true and false constants for a boolean return type or stack variable
-  where it improves readability.
+text: Use bool with the true and false constants for a boolean return type or stack
+  variable where it improves readability.
+normative: true
 links:
 - target: UR-0016
   type: implements
 attrs:
-  source_ref: "Linux Kernel Coding Style: Using bool"
+  source_ref: 'Linux Kernel Coding Style: Using bool'
